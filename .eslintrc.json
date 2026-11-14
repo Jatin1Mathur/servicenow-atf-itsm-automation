@@ -1,0 +1,33 @@
+{
+  "root": true,
+  "parserOptions": {
+    "ecmaVersion": 5,
+    "sourceType": "script"
+  },
+  "extends": "eslint:recommended",
+  "globals": {
+    "gs": "readonly",
+    "Class": "readonly",
+    "GlideRecord": "readonly",
+    "GlideRecordSecure": "readonly",
+    "GlideAggregate": "readonly",
+    "GlideDateTime": "readonly",
+    "GlideFilter": "readonly",
+    "ATFItsmTestUtils": "writable",
+    "outputs": "writable",
+    "steps": "readonly",
+    "params": "readonly",
+    "stepResult": "readonly",
+    "assertEqual": "readonly",
+    "inputs": "readonly",
+    "timeout": "readonly",
+    "step": "readonly"
+  },
+  "rules": {
+    "no-unused-vars": ["error", { "vars": "local", "args": "none" }],
+    "no-redeclare": "off",
+    "eqeqeq": "error",
+    "semi": ["error", "always"],
+    "no-var": "off"
+  }
+}

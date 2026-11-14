@@ -1,0 +1,12 @@
+{
+  "name": "servicenow-atf-itsm-automation",
+  "version": "1.0.0",
+  "private": true,
+  "description": "ServiceNow ATF regression suites for Incident, Change and Service Catalog",
+  "scripts": {
+    "lint": "eslint scripts"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.0"
+  }
+}
